@@ -1,0 +1,148 @@
+:root{
+    --btn-success: radial-gradient(circle, rgba(75,183,196,1) 0%, rgba(32,87,102,1) 100%);
+    --btn-success-hover: radial-gradient(circle, rgba(89,191,203,1) 0%, rgba(48,129,152,1) 100%);
+    --a-link: #4bb7c4;
+    --white-color: #fff;
+    --box-shadow: 0px 0px 8px 1px rgba(46,117,132,1);
+    --fa: #378d9b;
+    --a-link-hover: #205766;
+    --h1: #205766;
+    --label-custom: #205766;
+    --border-color: #96e0e8;
+    --general-card: #c0e4eb;
+
+}
+
+.parant-box{
+
+}
+.contant-box{
+    display: inline-block;
+}
+
+.main-box{
+    border: 1px solid black;
+    background: linear-gradient(178deg, #cbeff3, #afdfea, #daecec, #49b5c5);
+    background-size: 800% 800%;
+  
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    -o-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+.left-side-heading{
+    text-align: start;
+    font-weight: bold;
+}
+.right-side-heading{
+    text-align: start;
+    font-weight: bold;
+}
+.form-box{
+    width: 55%;
+}
+.form-label-margin-right{
+    margin-right: 40px;
+}
+.input-box-1{
+    text-align: start;
+}
+.company-adres-box{
+    
+    display: flex;
+}
+.adres-label-margin-right{
+    margin-right: 105px;
+}
+.br-no-label-margin-right{
+margin-right: 110px;
+}
+.vat-no-label-margin-right{
+    margin-right: 102px;
+}
+.email-label-margin-right{
+    margin-right: 117px;
+}
+.contact-no-label-margin-right{
+    margin-right: 73px;
+}
+.account-tittle-label-margin-right{
+margin-right: 95px;
+}
+.acc-no-label-margin-right{
+    margin-right: 133px;
+}
+.bank-label-margin-right{
+    margin-right: 153px;
+}
+.branch-adres-label-margin-right{
+    margin-right: 86px;
+}
+.botton-box{
+    text-align: center;
+}
+.btton-custom-style{
+    width: 30%;
+    background: radial-gradient(circle, rgba(75,183,196,1) 0%, rgba(32,87,102,1) 100%);
+    color: #fff;
+    background: var(--btn-success) !important;
+    padding: 5px 20px;
+    border-color: var(--fa);
+    margin: 10px;
+}
+.table-border{
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.table-heading-bg-colour{
+    background-color: white;
+}
+.table-box{
+    width: 100%;
+}
+input[type=text],input[type=password]{
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 5px; */
+    /* width: 85%; */
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  input[type=text]:focus,input[type=password]:focus, textarea:focus{
+    background-color: var(--white-color);
+    border-bottom: 2px solid var(--a-link);
+  }
+  .custom-textarea{
+    background-color: #f6f6f6;
+      border: none;
+      color: #0d0d0d;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+     
+      border: 2px solid #f6f6f6;
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+      -webkit-border-radius: 5px 5px 5px 5px;
+      border-radius: 5px 5px 5px 5px;
+  }
+  .button-box{
+    margin-bottom: 10px;
+  }
